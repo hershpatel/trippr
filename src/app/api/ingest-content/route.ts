@@ -16,7 +16,6 @@ const ingestResponseSchema = z.object({
   is_relevant: z.boolean(),
 });
 
-
 export async function POST(request: Request) {
   try {
     // Validate API key
